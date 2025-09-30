@@ -8,3 +8,5 @@ In all systems different "effects" may be triggered since events can be slotted 
 The movement allows for limited running, with Stamina; jumping and sliding when crouching.
 
 The dialogue system allows for branching dialogues created just by placing a "Dialogue Trigger" on an object, which then allows you to generate lines of dialogue which may or may not allow up to four options with line jumps to contemplate for different paths. It also let's you trigger events at the start or end of any dialogue.
+
+The given AI behaviour for enemies also uses a state machine (Idle, Walking, Detecting Player, Attacking, Stunned), the creature takes on different behaviours according to the state.
